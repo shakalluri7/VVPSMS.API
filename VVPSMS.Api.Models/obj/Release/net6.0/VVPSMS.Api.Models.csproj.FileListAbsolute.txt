@@ -1,0 +1,12 @@
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\bin\Release\net6.0\VVPSMS.Api.Models.deps.json
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\bin\Release\net6.0\VVPSMS.Api.Models.dll
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\bin\Release\net6.0\VVPSMS.Api.Models.pdb
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\obj\Release\net6.0\VVPSMS.Api.Models.csproj.AssemblyReference.cache
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\obj\Release\net6.0\VVPSMS.Api.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\obj\Release\net6.0\VVPSMS.Api.Models.AssemblyInfoInputs.cache
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\obj\Release\net6.0\VVPSMS.Api.Models.AssemblyInfo.cs
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\obj\Release\net6.0\VVPSMS.Api.Models.csproj.CoreCompileInputs.cache
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\obj\Release\net6.0\VVPSMS.Api.Models.dll
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\obj\Release\net6.0\refint\VVPSMS.Api.Models.dll
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\obj\Release\net6.0\VVPSMS.Api.Models.pdb
+C:\Projects\SustainEdge\VVPSMS\VVPSMS.API\VVPSMS.Api.Models\obj\Release\net6.0\ref\VVPSMS.Api.Models.dll
