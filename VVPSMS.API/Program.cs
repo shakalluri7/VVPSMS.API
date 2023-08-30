@@ -14,6 +14,8 @@ builder.Services.AddControllers().AddJsonOptions(x =>
                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 builder.Services.AddTransient<ILoginService, LoginService>();
 builder.Services.AddTransient<IAdmissionService, AdmissionService>();
+builder.Services.AddTransient<IStudentService, StudentService>();
+builder.Services.AddTransient<ITeacherService, TeacherService>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
