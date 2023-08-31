@@ -1,11 +1,13 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using System.Web.Http;
 using VVPSMS.Api.Models.ModelsDto;
 using VVPSMS.Service.Repository;
+using Microsoft.AspNetCore.Authorization;
 
 namespace VVPSMS.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Microsoft.AspNetCore.Mvc.Route("api/[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
     {
@@ -17,7 +19,8 @@ namespace VVPSMS.API.Controllers
             _mapper = mapper;
         }
 
-        [HttpPost("Login")]
+        [Microsoft.AspNetCore.Mvc.HttpPost("Login")]
+        [Microsoft.AspNetCore.Authorization.Authorize]
         public async Task<IActionResult> Login(LoginRequestDto loginRequestDto)
         {
             var response = await _dataRepository.LoginDetails(loginRequestDto);
