@@ -1,9 +1,7 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VVPSMS.Api.Models.ModelsDto;
 using VVPSMS.Service.Repository;
-using VVPSMS.Service.Shared;
 
 namespace VVPSMS.API.Controllers
 {
@@ -15,12 +13,12 @@ namespace VVPSMS.API.Controllers
         private readonly IAdmissionService _dataRepository;
         private readonly IConfiguration _configuration;
         private readonly IStorageService  _storageService;
-        public AdmissionController(IMapper mapper, IAdmissionService dataRepository, IConfiguration configuration)
+        public AdmissionController(IMapper mapper, IAdmissionService dataRepository, IConfiguration configuration,IStorageService storageService)
         {
             _dataRepository = dataRepository;
             _mapper = mapper;
             _configuration = configuration;
-            _storageService =new StorageService(_configuration);
+            _storageService = storageService;
         }
 
         [HttpPost("Admission")]

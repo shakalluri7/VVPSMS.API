@@ -7,6 +7,7 @@ using VVPSMS.API.AutoMapper;
 using VVPSMS.Service.Business;
 using VVPSMS.Service.DataManagers;
 using VVPSMS.Service.Repository;
+using VVPSMS.Service.Shared;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -77,6 +78,7 @@ builder.Services.AddTransient<IStudentService, StudentService>();
 builder.Services.AddTransient<ITeacherService, TeacherService>();
 builder.Services.AddTransient<IExternalLoginAppService,ExternalLoginAppService>();
 builder.Services.AddTransient<IJwtAuthManager,JwtAuthManager>();
+builder.Services.AddTransient<IStorageService, StorageService>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
