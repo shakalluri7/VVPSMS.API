@@ -4,6 +4,7 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 using System.Text.Json.Serialization;
 using VVPSMS.API.AutoMapper;
+using VVPSMS.Service.Business;
 using VVPSMS.Service.DataManagers;
 using VVPSMS.Service.Repository;
 
@@ -74,6 +75,8 @@ builder.Services.AddTransient<ILoginService, LoginService>();
 builder.Services.AddTransient<IAdmissionService, AdmissionService>();
 builder.Services.AddTransient<IStudentService, StudentService>();
 builder.Services.AddTransient<ITeacherService, TeacherService>();
+builder.Services.AddTransient<IExternalLoginAppService,ExternalLoginAppService>();
+builder.Services.AddTransient<IJwtAuthManager,JwtAuthManager>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 

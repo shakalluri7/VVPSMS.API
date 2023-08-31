@@ -55,5 +55,18 @@ namespace VVPSMS.Service.DataManagers
             }
             return loginResponseDto;
         }
+
+        public async Task<LoginResponseDto> GetEmployeeExternalvalidationAsync(string userId)
+        {
+            LoginResponseDto loginResponseDto = null;
+            try
+            {
+                                   }
+            catch (Exception ex)
+            {
+
+            }
+            return loginResponseDto;
+        }
     }
 }
